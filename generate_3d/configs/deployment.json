@@ -19,7 +19,7 @@
             "save_outputs": true,
             "save_outputs_location": "node",
             "save_outputs_path": "outputs",
-            "default_filename": "output.png"
+            "default_filename": "output_3d_model.glb"
         }
     }
 ]
