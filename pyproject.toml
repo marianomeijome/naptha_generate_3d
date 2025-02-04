@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "generate_3d"
+version = "0.1.0"
+description = "Generate 3D models from an input image using Stability's Stable Fast 3D."
+authors = ["Mariano Meijome <mariano.meijome@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
